@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+body, html {
+    /* height: 100%; */
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+}
+
+/* header */
+.header{
+  background-image: url("../img/IMGheader.jpg");
+
+  height: 100vh; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(50%);
+}
+.caption a{
+    text-decoration: none;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+} 
+.caption span.border {
+    background-color: #000000;
+    color: #fafafa;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.border{
+    border: 3px solid #fafafa!important;
+}
+
+/* menu nav */
+#navbarNav{
+    position: fixed;
+    top: -60px;
+    width: 100%;
+    display: block;
+    transition: top 0.5s;
+}
+
+
+/* presentación */
+.presentacion{
+    background-image: url("../img/imgpruebas/aerobic-class-exercise-866021.jpg");
+  
+    height: 100vh; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:#fafafa;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px black;
+    /* padding-top: 400px; */
+  }
+ 
+
+  .modalcontainer{
+    background-image: url("../img/imgpruebas/brick-brick-wall-concrete-1145303.jpg");
+
+    height: 100vh; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+      background-color: black;
+      color:#fafafa;
+      text-align: center;
+  }
+
+/* galeria */
+
+.btnModal {
+}
+.btnModal{
+    margin: auto;
+    font-size: 40px;
+}
+
+/* mapa */
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+#maps{
+    border:3px solid black;
+}
+
+
+/* contacto */
+.fomrContact{
+    padding-top: 75px;
+    height: 100vh;
+    
+    color:black;
+}
+#message{
+    height: 250px;
+}
+

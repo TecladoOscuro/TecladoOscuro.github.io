@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+body, html {
+    /* height: 100%; */
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+}
+
+/* header */
+.divLogo{
+    padding-top: 10px;
+}
+.header{
+  background-image: url("../img/IMGheader.jpg");
+
+  height: 100vh; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(50%);
+}
+.caption a{
+    text-decoration: none;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+} 
+.caption span.border {
+    background-color: #000000;
+    color: #fafafa;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.border{
+    border: 3px solid #fafafa!important;
+}
+
+/* menu nav */
+#navbarNav{
+    position: fixed;
+    top: -60px;
+    width: 100%;
+    display: block;
+    transition: top 0.5s;
+}
+
+#hidden{
+    position: fixed;
+    top: -60px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 10;
+}
+.bg-dark{
+    background-color: #000000!important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+}
+/* presentación */
+#presentacion{
+    background-color: #fafafa;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.frases em{
+    float:right;
+    margin-right: 30px;
+}
+/* servicios */
+.servicios div .pr,.servicios div .snd,.servicios div .tcr{
+    height:500px;
+    width: 100%;
+}
+.servicios div .pr{
+    background-color: #840032;
+}
+.servicios div .snd{
+    background-color: #E59500;
+}
+.servicios div .tcr{
+    background-color: #E5DADA;
+}
+
+/* contacto / mapa */
+.my-form {
+    color: #305896;
+}
+.my-form .btn-default {
+    background-color: #305896;
+    color: #fff;
+    border-radius: 0;
+}
+.my-form .btn-default:hover {
+    background-color: #4498C6;
+    color: #fff;
+}
+.my-form .form-control {
+    border-radius: 0;
+}
+
+.contacto{
+    padding-top: 60px;
+    height: 100vh;
+}
